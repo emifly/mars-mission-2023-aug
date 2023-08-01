@@ -20,6 +20,7 @@ const Home = () => {
         <img alt={photoOfTheDayTitle} src={photoOfTheDayUrl} />
       )}
       <Button onClick={() => alert("Hello!")}>Click me</Button>
+      <p>Hello there</p>
     </div>
   );
 };
