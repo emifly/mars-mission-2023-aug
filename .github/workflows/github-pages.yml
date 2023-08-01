@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_NASA_API_KEY: ${{ secrets.VITE_API_KEY }}
+          VITE_NASA_API_KEY: ${{ secrets.VITE_NASA_API_KEY }}
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
